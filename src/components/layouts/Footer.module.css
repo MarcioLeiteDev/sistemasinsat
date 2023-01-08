@@ -1,0 +1,44 @@
+
+.footer{
+    background:url("../../../public/image/backfooter.jpg") top center no-repeat;
+    height: 75vh;
+    background-size:cover;
+    padding-top:20px;
+    margin-top:40px
+}
+
+.footer .box{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    padding: 2em;
+    margin-top: 3em;
+    border-radius:1em;
+    opacity: .5;
+}
+
+.footer .box button{
+    padding: .7em 1.4em;
+    background-color: transparent;
+    color:#fff;
+    border-radius:1em;
+    font-size: 1.2em;
+    border:2px solid orange;
+    transition: .7s;
+}
+
+.footer .box button:hover{
+    padding: .7em 1.4em;
+    background-color: orange;
+    color:#fff;
+    border-radius:1em;
+    font-size: 1.2em;
+
+}
+
+.footer .box h3{
+    font-size: 2em;
+}

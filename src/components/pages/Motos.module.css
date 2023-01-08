@@ -1,0 +1,95 @@
+.top{
+    width: 100%;
+    background:url("../../../public/image/rastreador-moto.jpg") top center no-repeat;
+    height: 75vh;
+    background-size:cover;
+    padding-top:20px;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top .box{
+    margin-top: 2em;
+    width: 45%;
+    height: 250px;
+    opacity: 0.7;
+    color:#fff;
+    padding: 3em;
+    text-align: left;
+    border-radius:1em;
+    background: #000;
+}
+
+.top .box_atendimento{
+    margin-top: 2em;
+    width: 30%;
+    height: 250px;
+    opacity: 0.7;
+    color:#000;
+    padding: 3em;
+    text-align: left;   
+    border-radius:1em;
+
+}
+
+.content{
+    padding: 2em;
+}
+
+.content_box{
+    display:flex;
+    justify-content: space-between;
+    margin:1em;
+}
+
+.box{
+    border:1px solid rgb(236, 233, 233);
+    padding:1em;
+    text-align: center;
+    width: 24%;
+    box-shadow: 10px 10px 10px #ccc;
+    border-radius:1em;
+}
+
+.box_contato{
+    border:1px solid rgb(236, 233, 233);
+    padding:1em;
+    text-align: center;
+    width: 44%;
+    box-shadow: 10px 10px 10px #ccc;
+    border-radius:1em;
+}
+
+.icones{
+    font-size:3em;
+}
+
+.green{
+    color:green;
+}
+
+@media (max-width:796px){
+    .content_box{
+        display:block;
+        margin: 1em;
+    }
+    
+    .box{
+        border:1px solid #999;
+        padding:1em;
+        text-align: center;
+        width: 95%;
+        margin: 1em;
+    }
+
+    .box_contato{
+        border:1px solid rgb(236, 233, 233);
+        padding:1em;
+        text-align: center;
+        width: 95%;
+        box-shadow: 10px 10px 10px #ccc;
+        border-radius:1em;
+    }
+}

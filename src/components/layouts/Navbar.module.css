@@ -1,0 +1,19 @@
+.linka{
+    text-decoration: none;
+    color:orange;
+    text-decoration:none;
+    transition: .5s;
+    padding: .5em 1em;
+}
+
+.linka:a{
+    text-decoration:none;
+}
+
+.linka:hover{
+    text-decoration:none;
+    color:#fff;
+    background: orange;
+    padding: .5em 1em;
+    border-radius:1em;
+}
